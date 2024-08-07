@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+## BrowserRouter
+
+BrowserRouter is a component from react-router-dom that wraps our entire application.
+It provides the routing context to our app, allowing us to use routes and links.
+
+## Navigation
+
+We have a simple navigation menu with two links: "Home" and "About".
+We use the Link component from react-router-dom to create links that can be clicked to navigate to different routes.
+The to prop specifies the route path that the link should navigate to.
+
+## Routes
+
+Routes is a component from react-router-dom that wraps our route definitions.
+We define two routes: one for the home page ("/") and one for the about page ("/about").
+Each Route component specifies the path prop, which defines the route path, and the element prop, which specifies the component to render when the route is matched.
+
+## How it Works
+
+When the user clicks on a link, React Router updates the URL in the browser's address bar and renders the corresponding component.
+
+For example, when the user clicks on the "Home" link, React Router updates the URL to / and renders the Home component. When the user clicks on the "About" link, React Router updates the URL to /about and renders the About component.
+  
+
+  
+
