@@ -69,8 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+To start a client-side router in a React application, you can use the popular 
+`npm install react-router-dom`
 
-
+## other points
+. We then use the BrowserRouter component from react-router-dom to enable client-side routing.
+## just points
+These routes define the mapping between the URL in the browser's address bar and the component that should be rendered.
+## in index.js
+The ReactDOM.createRoot function creates a root element in the DOM, and the root.render function renders our App component to that root element.
 
 ## BrowserRouter
 
@@ -79,7 +86,7 @@ It provides the routing context to our app, allowing us to use routes and links.
 
 ## Navigation
 
-We have a simple navigation menu with two links: "Home" and "About".
+We have a simple navigation menu with threelinks: "Home" "About"  and contacts.
 We use the Link component from react-router-dom to create links that can be clicked to navigate to different routes.
 The to prop specifies the route path that the link should navigate to.
 
@@ -94,7 +101,6 @@ Each Route component specifies the path prop, which defines the route path, and 
 When the user clicks on a link, React Router updates the URL in the browser's address bar and renders the corresponding component.
 
 For example, when the user clicks on the "Home" link, React Router updates the URL to / and renders the Home component. When the user clicks on the "About" link, React Router updates the URL to /about and renders the About component.
-  
-
-  
+  ## strict mode 
+  Strict mode is a development feature that helps you catch errors and warnings in your code
 
